@@ -1,0 +1,203 @@
+{
+  "object": {
+    "title": {
+      "main": {
+        "color": "@TitleColor",
+        "fontSize": "@TitleSize"
+      },
+      "subTitle": {
+        "color": "@SubtitleColor",
+        "fontSize": "@SubtitleSize"
+      },
+      "footer": {
+        "color": "@FooterColor",
+        "fontSize": "@FooterSize",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "label": {
+      "name": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      },
+      "value": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      }
+    },
+    "axis": {
+      "title": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      },
+      "label": {
+        "name": {
+          "color": "@TextColor",
+          "fontSize": "@TextSize"
+        }
+      },
+      "line": {
+        "major": {
+          "color": "#eeeeee"
+        },
+        "minor": {
+          "color": "#eeeeee"
+        }
+      }
+    },
+    "grid": {
+      "line": {
+        "highContrast": {
+          "color": "#eeeeee"
+        },
+        "major": {
+          "color": "#eeeeee"
+        },
+        "minor": {
+          "color": "#eeeeee"
+        }
+      }
+    },
+    "referenceLine": {
+      "label": {
+        "name": {
+          "color": "@TextColor",
+          "fontSize": "@TextSize"
+        }
+      },
+      "outOfBounds": {
+        "color": "@TextColor",
+        "backgroundColor": "#ffffff",
+        "fontSize": "@TextSize"
+      }
+    },
+    "legend": {
+      "title": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      },
+      "label": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      }
+    }
+  },
+  "dataColors": {
+    "primaryColor": "#f13237",
+    "othersColor": "#fdef14",
+    "errorColor": "#0181ca",
+    "nullColor": "#CCCCCC"
+  },
+  "palettes": {
+    "data": [
+      {
+        "scale": [
+          "#f13237",
+          "#f46b35",
+          "#fa9636",
+          "#ffc32d",
+          "#fdef14",
+          "#91c74d",
+          "#02a85c",
+          "#009493",
+          "#0181ca",
+          "#653e91",
+          "#863b96",
+          "#b9396a"
+        ],
+        "name": "Fisher Price",
+        "translation": "Fisher Price",
+        "propertyValue": "zpgkik",
+        "type": "row",
+        "_id": "5aad409ebe1a68155e395fd6"
+      }
+    ],
+    "ui": [
+      {
+        "colors": [
+          "#f13237",
+          "#f46b35",
+          "#fa9636",
+          "#ffc32d",
+          "#fdef14",
+          "#91c74d",
+          "#02a85c",
+          "#009493",
+          "#0181ca",
+          "#653e91",
+          "#863b96",
+          "#b9396a"
+        ],
+        "name": "Fisher Price UI",
+        "_id": "5aad4122be1a68155e395fd8"
+      }
+    ]
+  },
+  "customStyles": [
+    {
+      "cssRef": "theme.css",
+      "classRef": "sense-theme"
+    }
+  ],
+  "scales": [
+    {
+      "scale": [
+        "#f13237",
+        "#f46b35",
+        "#fa9636",
+        "#ffc32d",
+        "#fdef14",
+        "#91c74d",
+        "#02a85c",
+        "#009493",
+        "#0181ca",
+        "#653e91",
+        "#863b96",
+        "#b9396a"
+      ],
+      "name": "Fisher Price Classes",
+      "translation": "Fisher Price Classes",
+      "type": "class",
+      "propertyValue": "z6p9nc",
+      "_id": "5aad4210be1a68155e395fda"
+    },
+    {
+      "scale": [
+        "#f13237",
+        "#f46b35",
+        "#fa9636",
+        "#ffc32d",
+        "#fdef14",
+        "#91c74d",
+        "#02a85c",
+        "#009493",
+        "#0181ca",
+        "#653e91",
+        "#863b96",
+        "#b9396a"
+      ],
+      "name": "Fisher Price Gradient",
+      "translation": "Fisher Price Gradient",
+      "type": "gradient",
+      "propertyValue": "g3iilk",
+      "_id": "5aad4210be1a68155e395fd9"
+    }
+  ],
+  "_inherit": true,
+  "_variables": {
+    "@TitleSize": "16px",
+    "@SubtitleSize": "15px",
+    "@TextSize": "12px",
+    "@FooterSize": "10px",
+    "@TitleColor": "#0181ca",
+    "@SubtitleColor": "#0181ca",
+    "@TextColor": "#0181ca",
+    "@FooterColor": "#0181ca",
+    "@BackgroundColor": "#fafaf2",
+    "@AxisMajorColor": "#eeeeee",
+    "@AxisMinorColor": "#eeeeee"
+  },
+  "color": "@TextColor",
+  "fontSize": "@TextSize",
+  "backgroundColor": "@BackgroundColor"
+}
